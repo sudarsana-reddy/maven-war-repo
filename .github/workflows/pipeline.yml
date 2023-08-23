@@ -5,7 +5,7 @@ on:
 
 jobs:
     publishWar:
-        runs-on: arc-runners-set
+        runs-on: arc-runner-set
         steps:
             - name: Checkout code
               uses: actions/checkout@v3
